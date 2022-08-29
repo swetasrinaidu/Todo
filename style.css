@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1,p{
+    color: white;
+    line-height: 5px;
+}
+.main{
+    width:800px;
+    height: 500px;
+    background-image: linear-gradient(to right,red,orange);
+    position: relative;
+    line-height: 40px;
+    font-size: 25px;
+}
+#add{
+    position: absolute;
+    bottom:30px;
+    left:570px;
+    height: 30px;
+}
+#form{
+    position: absolute;
+    bottom:30px;
+    left:30px;
+
+}
+#search{
+    width:500px;
+    height: 30px;
+
+}
+#clear{
+    position: absolute;
+    bottom:30px;
+    left:700px;
+    height: 30px;
+
+}
+button{
+    font-size:15px;
+}
+
+li.delete{
+    text-decoration: line-through;
+}
